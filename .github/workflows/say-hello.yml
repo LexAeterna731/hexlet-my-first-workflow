@@ -3,5 +3,6 @@ on: push
 jobs:
   say-hello-task:
     runs-on: ubuntu-latest
-      - uses: actions/checkout@v2
-      - run: make say-hello
+      steps:
+        - uses: actions/checkout@v2
+        - run: make say-hello
