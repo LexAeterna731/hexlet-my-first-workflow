@@ -1,7 +1,7 @@
 name: say-hello
 on: push
 jobs:
-  build:
+  say-hello-task:
     runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
-    - run: make say-hello
+      - uses: actions/checkout@v2
+      - run: make say-hello
